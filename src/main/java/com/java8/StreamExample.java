@@ -12,6 +12,10 @@ public class StreamExample {
 
 	public static void main(String[] args) {
 		
+		System.out.println("Stream function general operations are:\n");
+		
+		System.out.println("source --> filter --> sort --> map --> collect \n");
+		
 		
 		 List<AppleOrange> applels = Arrays.asList(
 				new AppleOrange("red","sweet",100),
@@ -65,6 +69,22 @@ public class StreamExample {
 		
 		amap.forEach((a,b)->System.out.println(a+" "+b));
 		amap.forEach((key,value)->System.out.println(key+" "+value));
+		
+		
+		System.out.println("\nArray Stream:\n");
+		String[] names = {"anjali","sumit","anupma","amit","charu","rayansh"};
+		
+		Arrays.stream(names)
+			.filter(x->x.startsWith("a"))
+			.sorted()
+			.forEach(System.out::println);
+		
+		System.out.println("\nsubstitute of method reference in place of lambda expression\n");
+		
+		Arrays.stream(names)
+		.filter(x->x.startsWith("a"))
+		.sorted()
+		.forEach(s->System.out.println(s));
 		
 		
 	}
