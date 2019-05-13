@@ -5,7 +5,7 @@ public class Q5OneAway {
 	public static void main(String[] args) {
 		
 		String str1 = "pale";
-		String str2 = "pae";
+		String str2 = "paio";
 		
 		boolean res = isOneAway(str1, str2);
 		
