@@ -12,7 +12,7 @@ public class Ques_LargestNumTwiceOfOthers {
 
 	private static int dominantIndex(int[] nums) {
 		
-		return 0;
+		return -1;
 	}
 
 }
