@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 
-public class Ques3 {
+public class Ques3_LongestSubstring {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub

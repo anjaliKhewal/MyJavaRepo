@@ -27,7 +27,7 @@ import java.util.Map;
    return [0, 1].
  * 
  * */
-public class Ques1_2 {
+public class Ques1_2_2Sum {
 
 	/**
 	 * @param args

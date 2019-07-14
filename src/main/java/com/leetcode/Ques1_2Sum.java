@@ -24,7 +24,7 @@ import java.util.List;
    return [0, 1].
  * 
  * */
-public class Ques1 {
+public class Ques1_2Sum {
 	
 
 	static int[] intArr = {1,2,3,4,7,8,5,6};
