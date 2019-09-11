@@ -67,9 +67,11 @@ public class StreamExample {
 		amap.put(4, "sumit");
 		amap.put(5, "sumit");
 		
+		System.out.println("*** map result *** "+amap);
+		
 		amap.forEach((a,b)->System.out.println(a+" "+b));
 		amap.forEach((key,value)->System.out.println(key+" "+value));
-		
+		//amap.forEach((key,value)->System.out.println("%s%s",key,value));
 		
 		System.out.println("\nArray Stream:\n");
 		String[] names = {"anjali","sumit","anupma","amit","charu","rayansh"};
