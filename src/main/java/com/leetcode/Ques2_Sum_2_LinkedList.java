@@ -9,7 +9,7 @@ import java.util.LinkedList;
  * @author Anjali
  *
  */
-public class Ques2 {
+public class Ques2_Sum_2_LinkedList {
 
 	/**
 	 * @param args
@@ -35,7 +35,7 @@ public class Ques2 {
 	Node end;
 	int size;
 	
-	public Ques2() {
+	public Ques2_Sum_2_LinkedList() {
 		start = null;
 		end = null;
 		size = 0;

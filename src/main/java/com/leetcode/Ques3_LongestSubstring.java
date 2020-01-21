@@ -14,8 +14,9 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.Scanner;
 
-public class Ques3 {
+public class Ques3_LongestSubstring {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
@@ -23,6 +24,9 @@ public class Ques3 {
 		System.out.println("Enter any string:");
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		Scanner sc = new Scanner(System.in);
+		String str = sc.nextLine();
+		System.out.println("Entered string: "+str);
 		String string = br.readLine();
 		//String string = "abcdacekjfk";
 		//String string = "abcdaekjfikl";
